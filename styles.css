@@ -80,12 +80,14 @@ body {
   margin: 0;
 }
 
-.present:hover .lid {
+.present:hover .lid,
+.present:active .lid {
   top: -110px;
   transform: rotateZ(10deg);
   left: 10px;
 }
 
-.present:hover .promo {
+.present:hover .promo,
+.present:active .promo {
   top: -95px;
 }
